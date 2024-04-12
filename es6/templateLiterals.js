@@ -1,28 +1,38 @@
-function show(name, address, mobile, age) {
-  //previously in javascript
-  //uncomment to see how it works
+//shadowCloneJutsu
+
+function performShadowCloneJutsu(ninjaName, village, contact, age) {
+  // Previously in JavaScript
+  // Uncomment to see how it works
   // console.log(
   //   "Name: " +
-  //     name +
+  //     ninjaName +
   //     " \n Age:" +
   //     age +
-  //     " \n Address: " +
-  //     address +
-  //     "\n mobile:" +
-  //     mobile +
+  //     " \n Village: " +
+  //     village +
+  //     "\n Contact:" +
+  //     contact +
   //     "\n ",
   // );
 
-  //after ES6
+  // After ES6 with Template Literals (Inspired by Naruto's Shadow Clone Jutsu)
 
   console.log(`
-    Name: ${name}
+    Shadow Clone Jutsu!
+    Ninja: ${ninjaName}
     Age: ${age}
-    Address: ${address}
-    Mobile: ${mobile}
+    Village: ${village}
+    Contact: ${contact}
     `);
 
-  //lesser lines of code,higher readablity
+  // Lesser lines of code, higher readability
 }
 
-show("YourName", "YourAddress", +910000000000, 89);
+// Naruto's Coding Journey: The Shadow Clone Technique
+
+performShadowCloneJutsu(
+  "Naruto Uzumaki",
+  "Konoha Village",
+  "+910000000000",
+  17,
+);

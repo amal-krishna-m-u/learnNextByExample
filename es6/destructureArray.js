@@ -1,7 +1,12 @@
-function destructure(arrayDetails) {
-  const [name, address, salary] = arrayDetails;
+// unleashNinjaDetails.js
 
-  console.log(name, address, salary);
+function unleashNinjaDetails(ninjaDetails) {
+  const [ninjaName, village, bounty] = ninjaDetails;
+
+  console.log("Ninja Details:");
+  console.log("Name:", ninjaName);
+  console.log("Village:", village);
+  console.log("Bounty:", bounty);
 }
 
-destructure(["YourName", "YourAddress", 35000]);
+unleashNinjaDetails(["Naruto Uzumaki", "Hidden Leaf", 1000000]);

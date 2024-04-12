@@ -1,0 +1,15 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "- This doesn't contain all the features released in ES6 - This contains only the most notable ones - If you think we missed something feel free to add it ,follow more details on contribution will be listed in the [contribution guidlines](https://github.com/amal-krishna-m-u/learnNextByExample/es6/README.md) here do check out",
+  "main": "arrowFunction.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

@@ -1,28 +1,29 @@
-function destructure({ values, name, age }) {
-  console.log(values, name, age);
+// unleashZanpakuto
 
-  //direct initalization and destructuring
-  const info = {
-    firstName: "yourFirstName",
-    secondName: "yourSecondName",
-    lastName: "yourLastName",
+function unleashZanpakuto({ name, releaseCommand, abilities }) {
+  console.log("Zanpakuto Details:");
+  console.log("Name:", name);
+  console.log("Release Command:", releaseCommand);
+  console.log("Abilities:", abilities.join(", "));
+
+  // Direct initialization and destructuring
+  const zanpakuto = {
+    shikai: "Senbonzakura",
+    bankai: "Senbonzakura Kageyoshi",
+    ability: "Cherry Blossom Control",
   };
 
-  const { firstName, secondName, lastName } = info;
-  console.log("\n initialization \n" + firstName + secondName + lastName);
-
-  // //alias ,this is also possible
-  // const { firstName: fn, secondName: sn, lastName: ln } = info;
-  // console.log("\n initialization \n" + fn + sn + ln);
+  const { shikai, bankai, ability } = zanpakuto;
+  console.log("\nZanpakuto Initialization:");
+  console.log("Shikai:", shikai);
+  console.log("Bankai:", bankai);
+  console.log("Ability:", ability);
 }
 
-const values = [1, 2, 3, 4];
-const name = "yourName";
-const age = 78;
-
-const newObject = {
-  values: values,
-  name: name,
-  age: age,
+const zanpakutoInfo = {
+  name: "Zangetsu",
+  releaseCommand: "Bankai",
+  abilities: ["Getsuga Tensho", "Zangetsu: Zanpakuto Spirit"],
 };
-destructure(newObject);
+
+unleashZanpakuto(zanpakutoInfo);

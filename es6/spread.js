@@ -1,17 +1,16 @@
-// spread is used to spread or unwrap the contents of one element to another
+// kamehameha.js
 
-function spreadTheButter(butter) {
-  let bread = [...butter];
-  console.log(bread);
-  bread.push("spreading Completed!!");
-  bread.reverse();
-  bread.pop();
-  console.log(bread);
+function unleashKamehameha(ingredients) {
+  let kamehameha = [...ingredients];
+  console.log("Unleashing Kamehameha!");
+  console.log("Ingredients: ", kamehameha);
+  kamehameha.push("Kamehameha Complete!!");
+  console.log("Final Output: ", kamehameha);
 }
 
-const butter = ["this contains butter,spread it in a bread", "price is 500RS"];
+const ingredients = ["ki", "power", "energy", "spirit"];
 
-spreadTheButter(butter);
+unleashKamehameha(ingredients);
 
-//see it creates a copy ,not a refference
-console.log(butter);
+// Confirming it creates a copy, not a reference
+console.log("Original Ingredients: ", ingredients);

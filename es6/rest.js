@@ -1,11 +1,13 @@
-function guessTheNubmerOfArguments(...x) {
-  //this is how you spread in the function definition
-  console.log(x);
-  console.log("number  of arguments", x.length); //this return an list
+// unleashTechniques.js
 
-  // previously on js
-  // console.log(arguments);
-  // this returns and indexed arary
+function unleashTechniques(...techniques) {
+  console.log("Unleashing Techniques:", techniques);
+  console.log("Number of Techniques:", techniques.length);
 }
 
-guessTheNubmerOfArguments(1, 2, 3, 4, 5, 6, 7);
+unleashTechniques(
+  "Rasengan",
+  "Shadow Clone Jutsu",
+  "Fireball Jutsu",
+  "Bankai: Senbonzakura Kageyoshi",
+);
